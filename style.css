@@ -61,8 +61,15 @@ main {
     padding: 0.5rem;
   border-radius: 0.5rem;
 }
+
 .author-quotes .wrapperBox {
   background-color: var(--author-color);
+}
+.author-quotes .wrapperBox:nth-child(odd):hover{
+  background-color:rgb(227, 201, 227);
+}
+.musician-quotes .wrapperBox:nth-child(even):hover{
+  background-color:rgb(150, 225, 232);
 }
 .musician-quotes .wrapperBox {
   background-color:var(--musician-color);
